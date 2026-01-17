@@ -26,16 +26,20 @@ body {
     justify-content: center;
     margin-top: 15px;
 }
+.navbar :hover{
+    color: #0d0d0d;
+
+}
 .navbar a {
     margin: 0 20px;
     cursor: pointer;
     font-weight: bold;
     color: white;
     text-decoration: none;
-    box-sizing: border-box;
 }
 .navbar a :hover {
     text-decoration:underline ;
+    color: #0d0d0d;
 }
 .content {
     padding: 40px;
