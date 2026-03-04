@@ -63,3 +63,10 @@ body {
     from {opacity: 0;}
     to {opacity: 1;}
 }
+.page-box {
+    border: 2px solid #444;
+    padding: 20px;
+    margin-top: 15px;
+    border-radius: 8px;
+    background-color: #f9f9f9;
+}
