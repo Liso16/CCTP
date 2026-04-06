@@ -70,3 +70,8 @@ body {
     border-radius: 8px;
     background-color: #f9f9f9;
 }
+.page-box ol,
+.page-box ul {
+    padding-left: 20px;
+    margin-left: 10px;
+}
