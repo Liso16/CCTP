@@ -153,3 +153,21 @@ body {
 .login-btn:hover {
     background-color: #222;
 }
+.page-box li {
+    margin-bottom: 12px;
+}
+
+.page-box li a {
+    display: inline-block;
+    margin-top: 4px;
+    font-size: 13px;
+    color: #2a5db0;
+    text-decoration: none;
+}
+
+.page-box li a:hover {
+    text-decoration: underline;
+}
+.page-box li a {
+    margin-left: 10px;
+}
