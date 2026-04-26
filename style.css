@@ -171,3 +171,13 @@ body {
 .page-box li a {
     margin-left: 10px;
 }
+.about-images {
+    display: flex;
+    gap: 10px;
+}
+
+ .about-img {
+    width: 30%;
+    height: 300px;
+    object-fit: cover;
+}
