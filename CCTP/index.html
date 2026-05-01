@@ -1,0 +1,519 @@
+<!DOCTYPE html>
+<html lang="en">
+   <head>
+    <meta charset="UFT-8">
+    
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, 
+    initial-scale=1.0">
+    <title>EaseAble</title>
+    <link rel="stylesheet" href="style.css">
+   </head>
+<body>
+    <header class="header">
+     <div class="logo-title">
+        <img src="Logo.png" alt="Logo" class="Logo">
+        <h1 class="logo-text">
+    <span>E</span>
+    <span>a</span>
+    <span>s</span>
+    <span>e</span>
+    <span>A</span>
+    <span>b</span>
+    <span>l</span>
+    <span>e</span>
+</h1>
+ </div>
+ <nav class="navbar">
+    <a onclick="showSection ('about')">About Autism</a>
+    <a onclick="showSection ('behavior')">Behavioral Analysis</a>
+    <a onclick="showSection ('screening')">Screening</a>
+    <a onclick="showSection ('resources')">Resources</a>
+    <a href="./login.html">Login</a>
+</nav>
+    </header>
+    <Main class="content">
+        <section id="about" class="section" style="display: block;">
+            <div class="about-images"></div>
+            <img src="./autism pic 2.jpeg" alt="Autism illustration" class="about-img">
+             <img src="./Autism symbol .webp" alt="Autism illustration" class="about-img">
+            <img src="./Screenshot 2026-04-22 at 14.51.48.png" alt="Autism illustration" class="about-img">
+            </div>
+            <div class="page-box">
+            <h2>About EaseAble</h2>
+            <P>
+                 EaseAble is a dedicated healthcare platform designed to support individuals and families navigating neurological conditions,
+                  with a strong focus on autism. It offers an intelligent and accessible experience through advanced AI-powered analysis, 
+                  allowing users to input observed behaviours and symptoms for guided insights based on established diagnostic criteria. 
+                  The platform also features a structured screening section with targeted questions that support early understanding and informed decision-making.
+                   In addition, EaseAble provides a rich collection of educational resources tailored to empower families—helping them build awareness,
+                    develop practical skills, and enhance the overall quality of life for individuals with autism.
+            </P>
+        </div>
+        </section>
+        <section id="behavior" class="section">
+            <h2>Behavioral Analysis</h2>
+            <div class="page-box">
+                <h3>Describe Observed Behaviors</h3>
+                <p>By Highlighting the symptoms or behavioral patterns displayed by the individual 
+                    and submitting this description to an advanced model of artficial intelligent systems,
+                the data can then be evaulated based on a diagnostic criteria embedded in the system extracted from trusted sources.
+            This results with providing the user with an approximate diagnosis.</p>
+                <p>Please describe any behaviors or symptoms you have noticed:</p>
+            
+                <textarea 
+                    class="input-box" 
+                    placeholder="e.g. avoids eye contact, repetitive movements, delayed speech..."
+                ></textarea>
+             <button class="submit-btn">Submit</button>
+        </div>
+         </section>
+         <section id="screening" class="section">
+            <h2>Screening</h2>
+            <div class="page-box">
+                <h3>Screening questions</h3>
+            <p>Please answer the following:</p>
+            <ol>
+                <li>Does the child Avoid eye contact ?</li>
+                <p>-Does the child show a tendency in avoiding to make eye contact when being interacted 
+                with such as when being spoken to or during communication</p>
+                <li>Are there repetitive movements ?</li>
+                <p>-Does the child usually show repetitive movements such as repeating the same actions 
+                    or Hand-flapping</p>
+                <li>Are there delayed speech patterns ?</li>
+                <p>-Whether the child display delayed speech development in comparison to others their age</p>
+                <li>Does the child look at you when you call their name ?</li>
+                <p>-Whether the child responds by looking at you when their name is called</p>
+                <li>Does the child use simple gestures ?</li>
+                <p>-(e.g. wave goodbye)</p>
+                <li>Does the child stare at nothing with no apparent purpose ?</li>
+                <p>-Whether there are times when the child appears to stare blankly and does not interact to what is happening around them</p>
+                <li>Does the child follow where you're looking ?</li>
+                <p>-Whether When you look at something, does the child follow the same path and look at the same thing</p>
+                <li>Does the child make involuntary face or body movemnts ?</li>
+                <p>-Whether the child makes unintneded body or facial expressions</p>
+                <li>Does the child show interest in children at play ?</li>
+                <p>-Whether the child displays signs of interest towards playing with other children</p>
+                <li>Does the child prefer to do things the same way over and over again ?</li>
+                <p>-Whether the child shows an interest in doing things repetitively</p>
+
+            </ol>
+              <button class="submit-btn">Submit</button>
+        </div>
+         </section>
+         <section id="resources" class="section">
+            <h2>Resources</h2>
+            <div class="page-box">
+                <div class="tabs">
+                    <button class="tab-btn active" onclick="openTab('parent')">Parental Guidance</button>
+                    <button class="tab-btn" onclick="openTab('therapy')">Therapy Centers</button>
+                    <button class="tab-btn" onclick="openTab('community')">Support Communities</button>
+                    <button class="tab-btn" onclick="openTab('education')">Educational Resources</button>
+                    <button class="tab-btn" onclick="openTab('orgs')">Organizations</button>
+                </div>
+                <div id="parent" class="tab-content" style="display: block;">
+                    <ul>
+                        <li>Books and Articles on understanding autism</li>
+                        <ul>
+                            <li>
+                                Understanding autism: insights from mind and brain
+                                <br>
+                                <a href="https://royalsocietypublishing.org/rstb/article-abstract/358/1430/281/20127/Understanding-autism-insights-from-mind-and-brain" target="_blank">
+                                    Visit Article
+                                </a>
+                            </li>
+                        
+                            <li>
+                                Understanding autism
+                                <br>
+                                <a href="https://books.google.co.uk/books?hl=en&lr=&id=XQzIIcu7wxcC&oi=fnd&pg=PP10&dq=Articles+on+understanding+autism+&ots=JNBa7bMjnF&sig=-orELi6mse_aMN-xDH-MUJztokg#v=onepage&q=Articles%20on%20understanding%20autism&f=false" target="_blank">
+                                    Visit Book
+                                </a>
+                            </li>
+                        
+                            <li>
+                                Understanding Autism Parents, Doctors, and the History of a Disorder
+                                <br>
+                                <a href="https://www.degruyterbrill.com/document/doi/10.1515/9781400840397/html" target="_blank">
+                                    Read Book
+                                </a>
+                            </li>
+                        </ul>
+
+
+                        <li>Daily parenting strategies</li>
+                        <ul>
+                            <li>
+                                Coping strategies used by parents of children with autism
+                                <br>
+                                <a href="https://journals.lww.com/jaanp/abstract/2007/05000/coping_strategies_used_by_parents_of_children_with.6.aspx" target="_blank">
+                                    Visit Journal
+                                </a>
+                            </li>
+                        
+                            <li>
+                                Teaching Parents Behavioral Strategies for Autism Spectrum Disorder (ASD): Effects on Stress, Strain, and Competence
+                                <br>
+                                <a href="https://link.springer.com/article/10.1007/s10803-017-3339-2" target="_blank">
+                                    Read Article
+                                </a>
+                            </li>
+                        
+                            <li>
+                                Coping over time: the parents of children with autism                                <br>
+                                <a href="https://onlinelibrary.wiley.com/doi/abs/10.1111/j.1365-2788.2006.00933.x" target="_blank">
+                                    Read Journal 
+                                </a>
+                            </li>
+                        </ul>
+
+
+                        <li>Managing routines and behavior</li>
+                        <ul>
+                            <li>
+                                Autism Spectrum Disorders — Diagnosis and Management
+                                <br>
+                                <a href="https://link.springer.com/article/10.1007/s12098-016-2272-2" target="_blank">
+                                    Visit Journal
+                                </a>
+                            </li>
+                        
+                            <li>
+                                RoutineAid: Externalizing Key Design Elements to Support Daily Routines of Individuals with Autism                                <br>
+                                <a href="https://dl.acm.org/doi/full/10.1145/3544548.3581048" target="_blank">
+                                    Read Article
+                                </a>
+                            </li>
+                        
+                            <li>
+                                Evidence-Based Practices to Reduce Challenging Behaviors of Young Children With Autism                               <br>
+                                <a href="https://journals.sagepub.com/doi/full/10.1177/1096250615598816?casa_token=05GRDfXADDUAAAAA%3Aa1VioQ0u92ds7fhTtlcscWCLNpIwefr_-kWPjWHa2pSY53GvGm8_ilamKsL-8wVWcBqOHg-F3cg" target="_blank">
+                                    Read Journal 
+                                </a>
+                            </li>
+                        </ul>
+                    </ul>
+                </div>
+                <div id="therapy" class="tab-content">
+                    <ul>
+                        <li>Speech therapy centers</li>
+                        <ul>
+                            <li>
+                                Online Speech and Language Therapy for Children and Adults
+                                <br>
+                                <a href="https://www.thespeechclinic.co.uk/online-speech-therapy.html" target="_blank">
+                                    Visit Website
+                                </a>
+                            </li>
+                        
+                            <li>
+                                London Reselience clinic (Holistic Autism clinic)
+                                <br>
+                                <a href="https://londonresilienceclinic.com/asd-clinic-lp3-1-281124/?utm_source=google&utm_medium=cpc&utm_campaign=23506893792&utm_term=autism%20clinic&gclid=CjwKCAjwhe3OBhABEiwA6392zNKP9isdVscxrdkL9GIYjS3g5pKjg2EOEX9SoYXAaOhK3wCtduSPhBoC7nEQAvD_BwE&gad_source=1&gad_campaignid=23506893792&gbraid=0AAAAA-Pv6auOfUlIrXJlADLTV3DU2sFzX" target="_blank">
+                                    Visit Website 
+                                </a>
+                            </li>
+                        
+                            <li>
+                                Association of Speech and Language Therapists in Independent Practice                               <br>
+                                <a href="https://asltip.com/find-a-speech-therapist/" target="_blank">
+                                    Visit Website
+                                </a>
+                            </li>
+                        </ul>
+
+                        <li>Behavioral therapy clinics</li>
+                            <ul>
+                                <li>
+                                    Spectrumc Assessments
+                                    <br>
+                                    <a href="https://www.spectrumassessments.co.uk/?gad_source=1&gad_campaignid=20624639516&gbraid=0AAAAAqVJkPSBYl4UuwNopyFYVL0BaJx1g&gclid=Cj0KCQjwqPLOBhCiARIsAKRMPZrhbIHyAuXZ_IyfU3ASZAv9StGhqPlJQBEX6EMMRUCfLwmR6158X-4aApsxEALw_wcB" target="_blank">
+                                        Visit Website
+                                    </a>
+                                </li>
+                            
+                                <li>
+                                    Lycali (Therapies & Assessment)
+                                    <br>
+                                    <a href="https://www.lycali.co.uk/?gad_source=1&gad_campaignid=20495997013&gbraid=0AAAAAqJM6MP-zih6exkVGcxbzL7LqrwDY&gclid=Cj0KCQjwqPLOBhCiARIsAKRMPZr4X0K09b6ganUT6532Fzw21SZ-Tyk33Oz7CUYwcj16gw1QOGaJ2MkaAingEALw_wcB" target="_blank">
+                                        Visit Website 
+                                    </a>
+                                </li>
+                            
+                                <li>
+                                    The Autism Clinic                              <br>
+                                    <a href="https://theautismclinic.co.uk/?gad_source=1&gad_campaignid=19645825400&gbraid=0AAAAAoT4dPy1I_w5GTvjBX2a9JCi3xdff&gclid=Cj0KCQjwqPLOBhCiARIsAKRMPZrCCKMu2ZVkLKP2uDtgckNPoucH9tQC0tSneH3n5dSopxFBZAiv3YcaAg0KEALw_wcB" target="_blank">
+                                        Visit Website
+                                    </a>
+                                </li>
+                            </ul>
+                        <li>Occupational therapy services</li>
+                        <ul>
+                            <li>
+                                Family Practice Group
+                                <br>
+                                <a href="https://www.familypracticegroup.co.uk/?gad_source=1&gad_campaignid=21757448148&gbraid=0AAAAADtWdG62cZnJ7T9x8uthjX3BFOf8T&gclid=Cj0KCQjwqPLOBhCiARIsAKRMPZp8cEOVdjoNELHxLo0BdBZuS38WTWeiCMCxjho5DuNDsyagmMvhdmAaAl8aEALw_wcB" target="_blank">
+                                    Visit Website
+                                </a>
+                            </li>
+                        
+                            <li>
+                                Swiss Medica 
+                                <br>
+                                <a href="https://swissmedica.org/innovative-therapies/asd4?utm_source=google&utm_medium=cpc&utm_campaign=Search-Autism-UK-V3&utm_content=c_23626835509%7Cadg_196362034040%7Cad_799169763569&utm_term=therapy%20for%20autism&gad_source=1&gad_campaignid=23626835509&gbraid=0AAAAAClT8fM3PSInU5O_98V78oL2DE01-&gclid=Cj0KCQjwqPLOBhCiARIsAKRMPZrrFDD-dGjhFvifJuQGTYo1cSPUqFL0oXPiJGmye1LsaSGjav8pW5AaAkusEALw_wcB" target="_blank">
+                                    Visit Website 
+                                </a>
+                            </li>
+                        
+                            <li>
+                                Scope                             <br>
+                                <a href="https://www.scope.org.uk/advice-and-support/home-adaptations-occupational-therapist-assessments?gad_source=1&gad_campaignid=20292776798&gbraid=0AAAAADrhH8E0gIy4f6enprCYJV3w4Lm8u&gclid=Cj0KCQjwqPLOBhCiARIsAKRMPZraMUstkqL-ChIJ3h2r6CP48K6vDuL565614UN3JpOsvDfFQ7RgJXEaAkhGEALw_wcB" target="_blank">
+                                    Visit Website
+                                </a>
+                            </li>
+                        </ul>
+                    </ul>
+                </div>
+                <div id="community" class="tab-content">
+                    <ul>
+                        <li>Online parent forums</li>
+                        <ul>
+                            <li>
+                                National Autistic Society 
+                                <br>
+                                <a href="https://www.autism.org.uk/what-we-do/community" target="_blank">
+                                    Visit Website
+                                </a>
+                            </li>
+                        
+                            <li>
+                                Ambitous about Autism 
+                                <br>
+                                <a href="https://www.ambitiousaboutautism.org.uk/what-we-do/services/i-am-a-parent-carer/parent-carer-online-community" target="_blank">
+                                    Visit Website 
+                                </a>
+                            </li>
+                        
+                            <li>
+                                Association for Autism and Neurodiversity                          <br>
+                                <a href="https://aane.org/services-programs/group-services/discussion-forums-parents-partners/" target="_blank">
+                                    Visit Website
+                                </a>
+                            </li>
+                        </ul>
+                        <li>Local support groups</li>
+                        <ul>
+                            <li>
+                                NHS
+                                <br>
+                                <a href="https://www.nhs.uk/conditions/autism/support/" target="_blank">
+                                    Visit Website
+                                </a>
+                            </li>
+                        
+                            <li>
+                                Autism Central 
+                                <br>
+                                <a href="https://www.autismcentral.nhs.uk" target="_blank">
+                                    Visit Website 
+                                </a>
+                            </li>
+                        
+                            <li>
+                                Well Child                          <br>
+                                <a href="https://www.wellchild.org.uk/get-support/information-hub/organisations-and-resources-for-families-with-an-autistic-child/" target="_blank">
+                                    Visit Website
+                                </a>
+                            </li>
+                        </ul>
+                        <li>Peer-to-peer communities</li><ul>
+                            <li>
+                                AutAngel 
+                                <br>
+                                <a href="https://www.autangel.org.uk/community/" target="_blank">
+                                    Visit Website
+                                </a>
+                            </li>
+                        
+                            <li>
+                                Kaboose APP 
+                                <br>
+                                <a href="https://www.kaboose.app" target="_blank">
+                                    Visit App
+                                </a>
+                            </li>
+                        
+                            <li>
+                                HeyPeers                               <br>
+                                <a href="https://www.heypeers.com" target="_blank">
+                                    Visit Website
+                                </a>
+                            </li>
+                        </ul>
+                    </ul>
+                </div>
+                <div id="education" class="tab-content">
+                    <ul>
+                        <li>Autism learning materials</li>
+                        <ul>
+                            <li>
+                                Parents Resources for Facilitating the Activities of Children with Autism at Home
+                                <br>
+                                <a href="https://link.springer.com/chapter/10.1057/9781137428318_25" target="_blank">
+                                    Visit Link 
+                                </a>
+                            </li>
+                        
+                            <li>
+                                Ambitous about Autism (Parent tool-kit)
+                                <br>
+                                <a href="https://www.ambitiousaboutautism.org.uk/what-we-do/services/i-am-a-parent-carer/parent-toolkit" target="_blank">
+                                    Visit Website 
+                                </a>
+                            </li>
+                        
+                            <li>
+                                Child Mind Institute                              <br>
+                                <a href="https://childmind.org/guide/parents-guide-to-autism/" target="_blank">
+                                    Visit Website
+                                </a>
+                            </li>
+                        </ul>
+                        <li>Child development guides</li>
+                        <ul>
+                            <li>
+                                Healthier together (NHS)
+                                <br>
+                                <a href="https://www.healthiertogether.nhs.uk/child-under-5-years/autism" target="_blank">
+                                    Visit Website
+                                </a>
+                            </li>
+                        
+                            <li>
+                                Neuro Divergence Wales 
+                                <br>
+                                <a href="https://neurodivergencewales.org/wp-content/uploads/2020/08/A-Guide-for-Early-Years-Settings_Eng.pdf" target="_blank">
+                                    Visit Website 
+                                </a>
+                            </li>
+                        
+                            <li>
+                                NeuroInclusive Education Network                            <br>
+                                <a href="https://www.nen.org.uk/resources" target="_blank">
+                                    Visit Website
+                                </a>
+                            </li>
+                        </ul>
+                        <li>Interactive learning tools</li>
+                        <ul>
+                            <li>
+                                Autism Parenting Magazine 
+                                <br>
+                                <a href="https://www.autismparentingmagazine.com/digital-tools-can-help-special-needs-child/?srsltid=AfmBOoqm5fBN_3QCXz_Z6W_uyZWgv9z3Ksz7VQ7J-UWs6MjL5rZHUzCI" target="_blank">
+                                    Visit Magazine 
+                                </a>
+                            </li>
+                        
+                            <li>
+                                Autism Speaks 
+                                <br>
+                                <a href="https://www.autismspeaks.org/virtual-activities-kids-autism" target="_blank">
+                                    Visit Website 
+                                </a>
+                            </li>
+                        
+                            <li>
+                                Resources for Autism                           <br>
+                                <a href="https://www.resourcesforautism.org.uk/about-autism/autism-resources/activities-resources/" target="_blank">
+                                    Visit Website
+                                </a>
+                            </li>
+                        </ul>
+                    </ul>
+                </div>
+            
+                <div id="orgs" class="tab-content">
+                    <ul>
+                        <li>Autism support organizations</li>
+                        <ul>
+                            <li>
+                                Bristol Autism Support 
+                                <br>
+                                <a href="https://www.bristolautismsupport.org" target="_blank">
+                                    Visit Website
+                                </a>
+                            </li>
+                        
+                            <li>
+                                Autism Alliance 
+                                <br>
+                                <a href="https://www.autism-alliance.org.uk" target="_blank">
+                                    Visit Website 
+                                </a>
+                            </li>
+                        
+                            <li>
+                              Child Autism                             <br>
+                                <a href="https://www.childautism.org.uk" target="_blank">
+                                    Visit Website
+                                </a>
+                            </li>
+                        </ul>
+                        <li>Non-profit initiatives</li>
+                        <ul>
+                            <li>
+                                Autism Intiatives 
+                                <br>
+                                <a href="https://autisminitiatives.org" target="_blank">
+                                    Visit Website
+                                </a>
+                            </li>
+                        
+                            <li>
+                                Autism Action 
+                                <br>
+                                <a href="https://autismaction.org.uk" target="_blank">
+                                    Visit Website 
+                                </a>
+                            </li>
+                        
+                            <li>
+                                Beyond Autism                              <br>
+                                <a href="https://www.beyondautism.org.uk" target="_blank">
+                                    Visit Website
+                                </a>
+                            </li>
+                        </ul>
+                        <li>Global awareness programs</li>
+                        <ul>
+                            <li>
+                                Global Autism Project
+                                <br>
+                                <a href="https://www.globalautismproject.org" target="_blank">
+                                    Visit Website
+                                </a>
+                            </li>
+                        
+                            <li>
+                                Autism Europe 
+                                <br>
+                                <a href="https://www.autismeurope.org" target="_blank">
+                                    Visit Website 
+                                </a>
+                            </li>
+                        
+                            <li>
+                                  Autism Speaks                            <br>
+                                <a href="https://www.autismspeaks.org" target="_blank">
+                                    Visit Website
+                                </a>
+                            </li>
+                        </ul>
+                    </ul>
+                </div>            
+ </div>
+         </section>      
+    </Main>
+    <script src="script.js"></script>
+    </body>
+    </html>
