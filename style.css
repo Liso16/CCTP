@@ -68,7 +68,8 @@ body {
     font-size: 16px;
     line-height: 1.6;
 }
-@keyframes fadeIn {
+
+@keyframes fadeIn { 
     from {opacity: 0;}
     to {opacity: 1;}
 }
